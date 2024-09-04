@@ -1,0 +1,94 @@
+
+body{
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+.img-responsive{
+    max-width: 100%;
+}
+.hero_image{
+    background-image: url(https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?b=1&s=612x612&w=0&k=20&c=X6CkFGpSKhNZeiii8Pp2M_YrBdqs7tRaBytkGi48a0U=);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+    position: relative;
+}
+.hero_wrapper{
+   position: absolute;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   left: 50%;
+   /* right: 50%; */
+   color: black;
+  
+}
+.post_code{
+    margin: 0;
+}
+.form_code{
+    text-align: center;
+}
+.hero_wrapper h1{
+    font-size: 2.4em;
+    text-align: center;
+}
+.hero_wrapper span{
+    margin-left: 5rem;
+    margin-bottom: .5rem;
+    display: inline block;
+}
+.form_code .post_code{
+    /* display: block; */
+    margin-right: auto;
+    margin-left: auto;
+    width : 80%;
+    border-radius : 2rem;
+    padding:.6rem;
+    border: none;
+    outline: none;
+
+
+}
+.form_code button{
+width: 40%;
+display: block;
+/* margin-left: auto; */
+margin-right: auto;
+text-align: center;
+background-color: #00babe;
+color: white;
+padding: .6rem; 
+border-radius: .3rem;
+border: none;
+/* margin-top: 1rem; */
+border: none;
+margin: 1rem auto 0rem;
+border-radius: .3rem;
+border-radius: 50px;
+
+
+}
+.form_code button:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+ .product_list_item{
+    float: left;
+width: 32%;
+margin-left: .5rem;
+}
+.product_list_item:first-of-type{
+    margin-left: 0;
+}
+@media screen and (max-width:600px){
+    .product_list_item{
+        width: 100%;
+        float: none;
+    }
+}
